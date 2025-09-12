@@ -1,2 +1,4 @@
+.gitignore
 .vscode/
 requirements_laptop.txt
+requirements.txt
