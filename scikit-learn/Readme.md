@@ -14,3 +14,20 @@ python -m ipykernel install --user --name=scikit_learn_kernel --display-name="Sc
 
 ## 4. Install your project-specific packages:
 pip install scikit-learn pandas numpy matplotlib  # your project requirements
+
+
+
+
+
+
+
+<!-- 
+
+# Force reinstall ipykernel and related packages
+pip uninstall ipykernel jupyter-client -y
+pip install --force-reinstall ipykernel jupyter-client
+
+# Re-register your kernel
+python -m ipykernel install --user --name=scikit_learn_kernel --display-name="Scikit Learn Kernel"  
+
+-->
